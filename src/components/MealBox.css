@@ -1,0 +1,13 @@
+.meal {
+  width: 400px;
+  height: 80px;
+}
+
+.meal:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.meal form {
+  justify-self: end;
+  width: 120px;
+}
